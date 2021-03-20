@@ -26,14 +26,22 @@ div{
 
 .description p{
     font-size: 1.5rem;
-    padding: 1% 3%;
-    /* background-color: #0d1f4d; */
-    background-color: #f29f0f;
+    padding: 1vh 3vw;
+    background-color: #0d1f4d;
+    /* background-color: #f29f0f; */
     border-radius: 10px;
     text-align: center;
 }
 
+.light-dark-left {
+    background-color: #fff;
+}
+.light-dark-right{
+    background-color: #000;
+}
+
 .top-pic img{
+    position: relative;
     transition: all 0.3s ease;
     margin-top: 50px;
     border: 6px solid #fff;
@@ -88,12 +96,12 @@ div{
     /* filter: blur(1px); */
 }
 
-.top-pic img:hover
-{
+.top-pic img:hover{
     /* animation: link-animation 1s; */
     transform: scale(1.2);
     border-color: #0d1f4d;
 }
+
 
 a{
     text-decoration: none;
