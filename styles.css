@@ -111,10 +111,10 @@ a{
 
 div.link:hover {
     /* background-color: #0d1f4d;
-    color: #fff;
+    color: #fff;*/
     transition: all 0.3s ease;
-    transform: scale(1.2); */
-    animation: link-animation 1s;
+    transform: scale(1.2);
+    /* animation: link-animation 1s; */
 }
 
 /* animation experimentation */
@@ -151,7 +151,7 @@ header,
 .link{
     width: 100%;
     margin: 5px;
-    padding: 2% 40px;
+    padding: 1vh 6vw;
     background-color: #fff;
     border-radius: 20px;
 }
