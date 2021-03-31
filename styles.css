@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-colour: #28649b;
+}
+
 @media (max-device-width: 1000px) {
     .bg-circles{
         display: none;
@@ -11,7 +15,7 @@
 }
 
 body{
-    background-color:#28649b;
+    background-color:var(--bg-colour);
     font-family: Avenir, Helvetica,Arial,sans-serif;
     width: auto;
     height: auto;
